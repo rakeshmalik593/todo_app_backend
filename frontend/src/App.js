@@ -110,7 +110,7 @@ class App extends Component {
           className={this.state.viewCompleted ? "nav-link active" : "nav-link"}
           onClick={() => this.displayCompleted(true)}
         >
-          Complete
+          Completed
         </span>
         <span
           className={this.state.viewCompleted ? "nav-link" : "nav-link active"}
@@ -176,7 +176,7 @@ class App extends Component {
         <ToastContainer />
         <main className="container">
           <h1 className="text-black text-uppercase text-center my-4">
-            Todo app
+            TaskMate: Schedule your tasks
           </h1>
           <div className="row">
             <div className="col-md-6 col-sm-10 mx-auto p-0">

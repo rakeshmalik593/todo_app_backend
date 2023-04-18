@@ -2,15 +2,15 @@ import React, { Component, useState } from "react";
 import "/Users/rakeshmalik/Desktop/todo_app/frontend/src/App.css"; // Import app.css file
 
 import {
-  Button,
+  ModalFooter,
   Modal,
+  Form,
+  Label,
+  FormGroup,
+  Button,
   ModalHeader,
   ModalBody,
-  ModalFooter,
-  Form,
-  FormGroup,
   Input,
-  Label,
 } from "reactstrap";
 import "react-datepicker/dist/react-datepicker.css";
 

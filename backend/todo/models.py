@@ -22,7 +22,7 @@ class Todo(models.Model):
         """
         Returns a string representation which includes the title and priority level.
         """
-        return f"{self.title} {self.get_priority_display()}"
+        return f"{self.title} {self.priority}"
     def clean(self):
         if len(self.title) < 5:
             raise ValidationError({'title': 'Title must be at least 5 characters long.'})

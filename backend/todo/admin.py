@@ -1,5 +1,6 @@
 """
-This module registers the Todo model with the Django admin interface and defines a custom ModelAdmin class.
+This module registers the Todo model with the Django admin 
+interface and defines a custom ModelAdmin class.
 
 The TodoAdmin class specifies which fields should be displayed in admin interface.
 """
